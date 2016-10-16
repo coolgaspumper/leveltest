@@ -3,6 +3,7 @@ var actorChars = {
   "@": Player,
   "o": Coin, // A coin will wobble up and down
   "=": Lava, "|": Lava, "v": Lava  
+  "y": Floater
 };
 
 function Level(plan) {
